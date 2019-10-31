@@ -1,0 +1,412 @@
+[     5.696] 
+X.Org X Server 1.20.5
+X Protocol Version 11, Revision 0
+[     5.696] Build Operating System: Linux Arch Linux
+[     5.696] Current Operating System: Linux platypus 5.3.7-arch1-2-ARCH #1 SMP PREEMPT @1572002934 x86_64
+[     5.696] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux root=UUID=2569c86f-275c-41fc-80ff-df7bd048d859 rw loglevel=3 quiet
+[     5.696] Build Date: 25 October 2019  08:43:50AM
+[     5.696]  
+[     5.696] Current version of pixman: 0.38.4
+[     5.696] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     5.696] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     5.697] (==) Log file: "/var/log/Xorg.0.log", Time: Thu Oct 31 17:13:28 2019
+[     5.697] (==) Using config file: "/etc/X11/xorg.conf"
+[     5.697] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     5.697] (==) ServerLayout "Layout0"
+[     5.697] (**) |-->Screen "Screen0" (0)
+[     5.697] (**) |   |-->Monitor "Monitor0"
+[     5.697] (==) No device specified for screen "Screen0".
+	Using the first device section listed.
+[     5.697] (**) |   |-->Device "nvidia"
+[     5.697] (**) |   |-->GPUDevice "intelgpu"
+[     5.697] (**) |-->Input Device "Keyboard0"
+[     5.697] (**) |-->Input Device "Mouse0"
+[     5.697] (==) Automatically adding devices
+[     5.697] (==) Automatically enabling devices
+[     5.697] (==) Automatically adding GPU devices
+[     5.697] (==) Automatically binding GPU devices
+[     5.697] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     5.697] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/misc".
+[     5.697] 	Entry deleted from font path.
+[     5.697] 	(Run 'mkfontdir' on "/usr/share/fonts/misc").
+[     5.697] (WW) The directory "/usr/share/fonts/TTF" does not exist.
+[     5.697] 	Entry deleted from font path.
+[     5.697] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[     5.697] 	Entry deleted from font path.
+[     5.697] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[     5.697] 	Entry deleted from font path.
+[     5.697] (==) FontPath set to:
+	/usr/share/fonts/100dpi,
+	/usr/share/fonts/75dpi
+[     5.697] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     5.697] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[     5.697] (WW) Disabling Keyboard0
+[     5.697] (WW) Disabling Mouse0
+[     5.697] (II) Module ABI versions:
+[     5.697] 	X.Org ANSI C Emulation: 0.4
+[     5.697] 	X.Org Video Driver: 24.0
+[     5.697] 	X.Org XInput driver : 24.1
+[     5.697] 	X.Org Server Extension : 10.0
+[     5.697] (++) using VT number 7
+
+[     5.697] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[     5.698] (II) xfree86: Adding drm device (/dev/dri/card0)
+[     5.712] (--) PCI:*(0@0:2:0) 8086:3e9b:1028:0906 rev 2, Mem @ 0xeb000000/16777216, 0x80000000/268435456, I/O @ 0x00004000/64, BIOS @ 0x????????/131072
+[     5.712] (--) PCI: (1@0:0:0) 10de:1fb9:1028:0906 rev 161, Mem @ 0xec000000/16777216, 0xc0000000/268435456, 0xd0000000/33554432, I/O @ 0x00003000/128, BIOS @ 0x????????/524288
+[     5.712] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[     5.712] (II) LoadModule: "glx"
+[     5.712] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     5.713] (II) Module glx: vendor="X.Org Foundation"
+[     5.713] 	compiled for 1.20.5, module version = 1.0.0
+[     5.713] 	ABI class: X.Org Server Extension, version 10.0
+[     5.713] (II) LoadModule: "nvidia"
+[     5.713] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[     5.713] (II) Module nvidia: vendor="NVIDIA Corporation"
+[     5.713] 	compiled for 1.6.99.901, module version = 1.0.0
+[     5.713] 	Module class: X.Org Video Driver
+[     5.713] (II) LoadModule: "xf86-video-intel"
+[     5.713] (WW) Warning, couldn't open module xf86-video-intel
+[     5.713] (EE) Failed to load module "xf86-video-intel" (module does not exist, 0)
+[     5.713] (II) NVIDIA dlloader X Driver  435.21  Sun Aug 25 08:17:08 CDT 2019
+[     5.713] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[     5.713] (II) Loading sub module "fb"
+[     5.713] (II) LoadModule: "fb"
+[     5.713] (II) Loading /usr/lib/xorg/modules/libfb.so
+[     5.713] (II) Module fb: vendor="X.Org Foundation"
+[     5.713] 	compiled for 1.20.5, module version = 1.0.0
+[     5.713] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     5.713] (II) Loading sub module "wfb"
+[     5.713] (II) LoadModule: "wfb"
+[     5.713] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[     5.714] (II) Module wfb: vendor="X.Org Foundation"
+[     5.714] 	compiled for 1.20.5, module version = 1.0.0
+[     5.714] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     5.714] (II) Loading sub module "ramdac"
+[     5.714] (II) LoadModule: "ramdac"
+[     5.714] (II) Module "ramdac" already built-in
+[     5.718] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[     5.718] (==) NVIDIA(0): RGB weight 888
+[     5.718] (==) NVIDIA(0): Default visual is TrueColor
+[     5.718] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[     5.718] (**) NVIDIA(0): Option "AllowEmptyInitialConfiguration"
+[     5.718] (**) NVIDIA(0): Enabling 2D acceleration
+[     5.718] (II) Loading sub module "glxserver_nvidia"
+[     5.718] (II) LoadModule: "glxserver_nvidia"
+[     5.718] (WW) Warning, couldn't open module glxserver_nvidia
+[     5.718] (EE) NVIDIA: Failed to load module "glxserver_nvidia" (module does not exist, 0)
+[     5.718] (EE) NVIDIA(0): Failed to initialize the GLX module; please check in your X
+[     5.718] (EE) NVIDIA(0):     log file that the GLX module has been loaded in your X
+[     5.718] (EE) NVIDIA(0):     server, and that the module is the NVIDIA GLX module.  If
+[     5.718] (EE) NVIDIA(0):     you continue to encounter problems, Please try
+[     5.718] (EE) NVIDIA(0):     reinstalling the NVIDIA driver.
+[     5.718] (II) NVIDIA: The X server does not support PRIME Render Offload.
+[     6.130] (II) NVIDIA(0): NVIDIA GPU Quadro T1000 (TU117GL-A) at PCI:1:0:0 (GPU-0)
+[     6.130] (--) NVIDIA(0): Memory: 4194304 kBytes
+[     6.130] (--) NVIDIA(0): VideoBIOS: 90.17.1c.40.4c
+[     6.130] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[     6.130] (II) NVIDIA(0): Validated MetaModes:
+[     6.130] (II) NVIDIA(0):     "NULL"
+[     6.130] (II) NVIDIA(0): Virtual screen size determined to be 640 x 480
+[     6.130] (WW) NVIDIA(0): Unable to get display device for DPI computation.
+[     6.130] (==) NVIDIA(0): DPI set to (75, 75); computed from built-in default
+[     6.130] (II) NVIDIA: Using 24576.00 MB of virtual memory for indirect memory
+[     6.130] (II) NVIDIA:     access.
+[     6.143] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[     6.143] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[     6.143] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[     6.143] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[     6.143] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[     6.143] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[     6.143] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[     6.143] (II) NVIDIA(0):     Config Options in the README.
+[     6.156] (II) NVIDIA(0): Setting mode "NULL"
+[     6.160] (==) NVIDIA(0): Disabling shared memory pixmaps
+[     6.160] (==) NVIDIA(0): Backing store enabled
+[     6.160] (==) NVIDIA(0): Silken mouse disabled
+[     6.160] (**) NVIDIA(0): DPMS enabled
+[     6.160] (II) Loading sub module "dri2"
+[     6.160] (II) LoadModule: "dri2"
+[     6.160] (II) Module "dri2" already built-in
+[     6.160] (II) NVIDIA(0): [DRI2] Setup complete
+[     6.160] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[     6.160] (II) Initializing extension Generic Event Extension
+[     6.160] (II) Initializing extension SHAPE
+[     6.160] (II) Initializing extension MIT-SHM
+[     6.160] (II) Initializing extension XInputExtension
+[     6.160] (II) Initializing extension XTEST
+[     6.160] (II) Initializing extension BIG-REQUESTS
+[     6.160] (II) Initializing extension SYNC
+[     6.160] (II) Initializing extension XKEYBOARD
+[     6.160] (II) Initializing extension XC-MISC
+[     6.160] (II) Initializing extension SECURITY
+[     6.160] (II) Initializing extension XFIXES
+[     6.160] (II) Initializing extension RENDER
+[     6.160] (II) Initializing extension RANDR
+[     6.160] (II) Initializing extension COMPOSITE
+[     6.161] (II) Initializing extension DAMAGE
+[     6.161] (II) Initializing extension MIT-SCREEN-SAVER
+[     6.161] (II) Initializing extension DOUBLE-BUFFER
+[     6.161] (II) Initializing extension RECORD
+[     6.161] (II) Initializing extension DPMS
+[     6.161] (II) Initializing extension Present
+[     6.161] (II) Initializing extension DRI3
+[     6.161] (II) Initializing extension X-Resource
+[     6.161] (II) Initializing extension XVideo
+[     6.161] (II) Initializing extension XVideo-MotionCompensation
+[     6.161] (II) Initializing extension GLX
+[     6.161] (II) AIGLX: Screen 0 is not DRI2 capable
+[     6.206] (II) IGLX: Loaded and initialized swrast
+[     6.206] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[     6.206] (II) Initializing extension XFree86-VidModeExtension
+[     6.206] (II) Initializing extension XFree86-DGA
+[     6.206] (II) Initializing extension XFree86-DRI
+[     6.206] (II) Initializing extension DRI2
+[     6.206] (II) Initializing extension NV-GLX
+[     6.206] (II) Initializing extension NV-CONTROL
+[     6.238] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[     6.238] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[     6.238] (II) LoadModule: "libinput"
+[     6.238] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[     6.239] (II) Module libinput: vendor="X.Org Foundation"
+[     6.239] 	compiled for 1.20.5, module version = 0.29.0
+[     6.239] 	Module class: X.Org XInput Driver
+[     6.239] 	ABI class: X.Org XInput driver, version 24.1
+[     6.239] (II) Using input driver 'libinput' for 'Power Button'
+[     6.239] (**) Power Button: always reports core events
+[     6.239] (**) Option "Device" "/dev/input/event1"
+[     6.239] (**) Option "_source" "server/udev"
+[     6.240] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     6.240] (II) event1  - Power Button: device is a keyboard
+[     6.240] (II) event1  - Power Button: device removed
+[     6.280] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[     6.280] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[     6.281] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     6.281] (II) event1  - Power Button: device is a keyboard
+[     6.281] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[     6.281] (II) No input driver specified, ignoring this device.
+[     6.281] (II) This device may have been added with another device file.
+[     6.281] (II) config/udev: Adding input device Sleep Button (/dev/input/event2)
+[     6.281] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[     6.281] (II) Using input driver 'libinput' for 'Sleep Button'
+[     6.281] (**) Sleep Button: always reports core events
+[     6.281] (**) Option "Device" "/dev/input/event2"
+[     6.281] (**) Option "_source" "server/udev"
+[     6.282] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[     6.282] (II) event2  - Sleep Button: device is a keyboard
+[     6.282] (II) event2  - Sleep Button: device removed
+[     6.320] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2/event2"
+[     6.320] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[     6.321] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[     6.321] (II) event2  - Sleep Button: device is a keyboard
+[     6.322] (II) config/udev: Adding input device Integrated_Webcam_HD: Integrate (/dev/input/event10)
+[     6.322] (**) Integrated_Webcam_HD: Integrate: Applying InputClass "libinput keyboard catchall"
+[     6.322] (II) Using input driver 'libinput' for 'Integrated_Webcam_HD: Integrate'
+[     6.322] (**) Integrated_Webcam_HD: Integrate: always reports core events
+[     6.322] (**) Option "Device" "/dev/input/event10"
+[     6.322] (**) Option "_source" "server/udev"
+[     6.323] (II) event10 - Integrated_Webcam_HD: Integrate: is tagged by udev as: Keyboard
+[     6.323] (II) event10 - Integrated_Webcam_HD: Integrate: device is a keyboard
+[     6.323] (II) event10 - Integrated_Webcam_HD: Integrate: device removed
+[     6.374] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/input/input15/event10"
+[     6.374] (II) XINPUT: Adding extended input device "Integrated_Webcam_HD: Integrate" (type: KEYBOARD, id 8)
+[     6.376] (II) event10 - Integrated_Webcam_HD: Integrate: is tagged by udev as: Keyboard
+[     6.377] (II) event10 - Integrated_Webcam_HD: Integrate: device is a keyboard
+[     6.378] (II) config/udev: Adding input device SONiX USB DEVICE (/dev/input/event8)
+[     6.378] (**) SONiX USB DEVICE: Applying InputClass "libinput keyboard catchall"
+[     6.378] (II) Using input driver 'libinput' for 'SONiX USB DEVICE'
+[     6.378] (**) SONiX USB DEVICE: always reports core events
+[     6.378] (**) Option "Device" "/dev/input/event8"
+[     6.378] (**) Option "_source" "server/udev"
+[     6.379] (II) event8  - SONiX USB DEVICE: is tagged by udev as: Keyboard
+[     6.379] (II) event8  - SONiX USB DEVICE: device is a keyboard
+[     6.379] (II) event8  - SONiX USB DEVICE: device removed
+[     6.414] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:0C45:5004.0001/input/input10/event8"
+[     6.414] (II) XINPUT: Adding extended input device "SONiX USB DEVICE" (type: KEYBOARD, id 9)
+[     6.414] (II) event8  - SONiX USB DEVICE: is tagged by udev as: Keyboard
+[     6.415] (II) event8  - SONiX USB DEVICE: device is a keyboard
+[     6.415] (II) config/udev: Adding input device SONiX USB DEVICE Keyboard (/dev/input/event9)
+[     6.415] (**) SONiX USB DEVICE Keyboard: Applying InputClass "libinput keyboard catchall"
+[     6.415] (II) Using input driver 'libinput' for 'SONiX USB DEVICE Keyboard'
+[     6.415] (**) SONiX USB DEVICE Keyboard: always reports core events
+[     6.415] (**) Option "Device" "/dev/input/event9"
+[     6.415] (**) Option "_source" "server/udev"
+[     6.416] (II) event9  - SONiX USB DEVICE Keyboard: is tagged by udev as: Keyboard
+[     6.416] (II) event9  - SONiX USB DEVICE Keyboard: device is a keyboard
+[     6.416] (II) event9  - SONiX USB DEVICE Keyboard: device removed
+[     6.440] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:0C45:5004.0002/input/input11/event9"
+[     6.440] (II) XINPUT: Adding extended input device "SONiX USB DEVICE Keyboard" (type: KEYBOARD, id 10)
+[     6.442] (II) event9  - SONiX USB DEVICE Keyboard: is tagged by udev as: Keyboard
+[     6.442] (II) event9  - SONiX USB DEVICE Keyboard: device is a keyboard
+[     6.442] (II) config/udev: Adding input device SONiX USB DEVICE System Control (/dev/input/event11)
+[     6.442] (**) SONiX USB DEVICE System Control: Applying InputClass "libinput keyboard catchall"
+[     6.442] (II) Using input driver 'libinput' for 'SONiX USB DEVICE System Control'
+[     6.442] (**) SONiX USB DEVICE System Control: always reports core events
+[     6.442] (**) Option "Device" "/dev/input/event11"
+[     6.442] (**) Option "_source" "server/udev"
+[     6.444] (II) event11 - SONiX USB DEVICE System Control: is tagged by udev as: Keyboard
+[     6.444] (II) event11 - SONiX USB DEVICE System Control: device is a keyboard
+[     6.444] (II) event11 - SONiX USB DEVICE System Control: device removed
+[     6.480] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:0C45:5004.0002/input/input12/event11"
+[     6.480] (II) XINPUT: Adding extended input device "SONiX USB DEVICE System Control" (type: KEYBOARD, id 11)
+[     6.484] (II) event11 - SONiX USB DEVICE System Control: is tagged by udev as: Keyboard
+[     6.484] (II) event11 - SONiX USB DEVICE System Control: device is a keyboard
+[     6.485] (II) config/udev: Adding input device SONiX USB DEVICE Consumer Control (/dev/input/event12)
+[     6.485] (**) SONiX USB DEVICE Consumer Control: Applying InputClass "libinput keyboard catchall"
+[     6.485] (II) Using input driver 'libinput' for 'SONiX USB DEVICE Consumer Control'
+[     6.485] (**) SONiX USB DEVICE Consumer Control: always reports core events
+[     6.485] (**) Option "Device" "/dev/input/event12"
+[     6.486] (**) Option "_source" "server/udev"
+[     6.488] (II) event12 - SONiX USB DEVICE Consumer Control: is tagged by udev as: Keyboard
+[     6.488] (II) event12 - SONiX USB DEVICE Consumer Control: device is a keyboard
+[     6.489] (II) event12 - SONiX USB DEVICE Consumer Control: device removed
+[     6.507] (II) libinput: SONiX USB DEVICE Consumer Control: needs a virtual subdevice
+[     6.507] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:0C45:5004.0002/input/input13/event12"
+[     6.507] (II) XINPUT: Adding extended input device "SONiX USB DEVICE Consumer Control" (type: MOUSE, id 12)
+[     6.507] (**) Option "AccelerationScheme" "none"
+[     6.507] (**) SONiX USB DEVICE Consumer Control: (accel) selected scheme none/0
+[     6.507] (**) SONiX USB DEVICE Consumer Control: (accel) acceleration factor: 2.000
+[     6.507] (**) SONiX USB DEVICE Consumer Control: (accel) acceleration threshold: 4
+[     6.510] (II) event12 - SONiX USB DEVICE Consumer Control: is tagged by udev as: Keyboard
+[     6.511] (II) event12 - SONiX USB DEVICE Consumer Control: device is a keyboard
+[     6.512] (II) config/udev: Adding input device SONiX USB DEVICE (/dev/input/event13)
+[     6.512] (II) No input driver specified, ignoring this device.
+[     6.512] (II) This device may have been added with another device file.
+[     6.513] (II) config/udev: Adding input device SYNA2393:00 06CB:7A13 Touchpad (/dev/input/event21)
+[     6.513] (**) SYNA2393:00 06CB:7A13 Touchpad: Applying InputClass "libinput touchpad catchall"
+[     6.513] (II) Using input driver 'libinput' for 'SYNA2393:00 06CB:7A13 Touchpad'
+[     6.513] (**) SYNA2393:00 06CB:7A13 Touchpad: always reports core events
+[     6.513] (**) Option "Device" "/dev/input/event21"
+[     6.513] (**) Option "_source" "server/udev"
+[     6.517] (II) event21 - SYNA2393:00 06CB:7A13 Touchpad: is tagged by udev as: Touchpad
+[     6.520] (II) event21 - SYNA2393:00 06CB:7A13 Touchpad: device is a touchpad
+[     6.520] (II) event21 - SYNA2393:00 06CB:7A13 Touchpad: device removed
+[     6.574] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-10/i2c-SYNA2393:00/0018:06CB:7A13.0003/input/input26/event21"
+[     6.574] (II) XINPUT: Adding extended input device "SYNA2393:00 06CB:7A13 Touchpad" (type: TOUCHPAD, id 13)
+[     6.577] (**) Option "AccelerationScheme" "none"
+[     6.577] (**) SYNA2393:00 06CB:7A13 Touchpad: (accel) selected scheme none/0
+[     6.577] (**) SYNA2393:00 06CB:7A13 Touchpad: (accel) acceleration factor: 2.000
+[     6.577] (**) SYNA2393:00 06CB:7A13 Touchpad: (accel) acceleration threshold: 4
+[     6.580] (II) event21 - SYNA2393:00 06CB:7A13 Touchpad: is tagged by udev as: Touchpad
+[     6.583] (II) event21 - SYNA2393:00 06CB:7A13 Touchpad: device is a touchpad
+[     6.584] (II) config/udev: Adding input device SYNA2393:00 06CB:7A13 Touchpad (/dev/input/mouse1)
+[     6.584] (II) No input driver specified, ignoring this device.
+[     6.584] (II) This device may have been added with another device file.
+[     6.585] (II) config/udev: Adding input device HDA Intel PCH Headphone Mic (/dev/input/event15)
+[     6.585] (II) No input driver specified, ignoring this device.
+[     6.585] (II) This device may have been added with another device file.
+[     6.586] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event16)
+[     6.586] (II) No input driver specified, ignoring this device.
+[     6.586] (II) This device may have been added with another device file.
+[     6.586] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event17)
+[     6.586] (II) No input driver specified, ignoring this device.
+[     6.586] (II) This device may have been added with another device file.
+[     6.587] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event18)
+[     6.587] (II) No input driver specified, ignoring this device.
+[     6.587] (II) This device may have been added with another device file.
+[     6.588] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event19)
+[     6.588] (II) No input driver specified, ignoring this device.
+[     6.588] (II) This device may have been added with another device file.
+[     6.588] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=10 (/dev/input/event20)
+[     6.588] (II) No input driver specified, ignoring this device.
+[     6.588] (II) This device may have been added with another device file.
+[     6.589] (II) config/udev: Adding input device Intel HID events (/dev/input/event4)
+[     6.589] (**) Intel HID events: Applying InputClass "libinput keyboard catchall"
+[     6.589] (II) Using input driver 'libinput' for 'Intel HID events'
+[     6.589] (**) Intel HID events: always reports core events
+[     6.589] (**) Option "Device" "/dev/input/event4"
+[     6.589] (**) Option "_source" "server/udev"
+[     6.591] (II) event4  - Intel HID events: is tagged by udev as: Keyboard
+[     6.591] (II) event4  - Intel HID events: device is a keyboard
+[     6.591] (II) event4  - Intel HID events: device removed
+[     6.627] (**) Option "config_info" "udev:/sys/devices/platform/INT33D5:00/input/input5/event4"
+[     6.627] (II) XINPUT: Adding extended input device "Intel HID events" (type: KEYBOARD, id 14)
+[     6.629] (II) event4  - Intel HID events: is tagged by udev as: Keyboard
+[     6.629] (II) event4  - Intel HID events: device is a keyboard
+[     6.630] (II) config/udev: Adding input device Intel HID 5 button array (/dev/input/event5)
+[     6.630] (**) Intel HID 5 button array: Applying InputClass "libinput keyboard catchall"
+[     6.630] (II) Using input driver 'libinput' for 'Intel HID 5 button array'
+[     6.630] (**) Intel HID 5 button array: always reports core events
+[     6.630] (**) Option "Device" "/dev/input/event5"
+[     6.630] (**) Option "_source" "server/udev"
+[     6.631] (II) event5  - Intel HID 5 button array: is tagged by udev as: Keyboard
+[     6.631] (II) event5  - Intel HID 5 button array: device is a keyboard
+[     6.632] (II) event5  - Intel HID 5 button array: device removed
+[     6.667] (**) Option "config_info" "udev:/sys/devices/platform/INT33D5:00/input/input6/event5"
+[     6.667] (II) XINPUT: Adding extended input device "Intel HID 5 button array" (type: KEYBOARD, id 15)
+[     6.669] (II) event5  - Intel HID 5 button array: is tagged by udev as: Keyboard
+[     6.669] (II) event5  - Intel HID 5 button array: device is a keyboard
+[     6.670] (II) config/udev: Adding input device Dell WMI hotkeys (/dev/input/event7)
+[     6.670] (**) Dell WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[     6.670] (II) Using input driver 'libinput' for 'Dell WMI hotkeys'
+[     6.670] (**) Dell WMI hotkeys: always reports core events
+[     6.670] (**) Option "Device" "/dev/input/event7"
+[     6.670] (**) Option "_source" "server/udev"
+[     6.673] (II) event7  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[     6.673] (II) event7  - Dell WMI hotkeys: device is a keyboard
+[     6.673] (II) event7  - Dell WMI hotkeys: device removed
+[     6.720] (**) Option "config_info" "udev:/sys/devices/platform/PNP0C14:05/wmi_bus/wmi_bus-PNP0C14:05/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input9/event7"
+[     6.720] (II) XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 16)
+[     6.723] (II) event7  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[     6.723] (II) event7  - Dell WMI hotkeys: device is a keyboard
+[     6.725] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[     6.725] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[     6.725] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[     6.725] (**) AT Translated Set 2 keyboard: always reports core events
+[     6.725] (**) Option "Device" "/dev/input/event3"
+[     6.725] (**) Option "_source" "server/udev"
+[     6.727] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[     6.727] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[     6.729] (II) event3  - AT Translated Set 2 keyboard: device removed
+[     6.760] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
+[     6.760] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 17)
+[     6.763] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[     6.763] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[     6.765] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/event14)
+[     6.765] (**) SynPS/2 Synaptics TouchPad: Applying InputClass "libinput touchpad catchall"
+[     6.765] (II) Using input driver 'libinput' for 'SynPS/2 Synaptics TouchPad'
+[     6.765] (**) SynPS/2 Synaptics TouchPad: always reports core events
+[     6.765] (**) Option "Device" "/dev/input/event14"
+[     6.765] (**) Option "_source" "server/udev"
+[     6.766] (II) event14 - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[     6.766] (II) event14 - SynPS/2 Synaptics TouchPad: no resolution or size hints, assuming a size of 69x50mm
+[     6.766] (II) event14 - SynPS/2 Synaptics TouchPad: device is a touchpad
+[     6.766] (II) event14 - SynPS/2 Synaptics TouchPad: device removed
+[     6.827] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input8/event14"
+[     6.827] (II) XINPUT: Adding extended input device "SynPS/2 Synaptics TouchPad" (type: TOUCHPAD, id 18)
+[     6.828] (**) Option "AccelerationScheme" "none"
+[     6.828] (**) SynPS/2 Synaptics TouchPad: (accel) selected scheme none/0
+[     6.828] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration factor: 2.000
+[     6.828] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration threshold: 4
+[     6.828] (II) event14 - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[     6.829] (II) event14 - SynPS/2 Synaptics TouchPad: no resolution or size hints, assuming a size of 69x50mm
+[     6.829] (II) event14 - SynPS/2 Synaptics TouchPad: device is a touchpad
+[     6.830] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/mouse0)
+[     6.830] (II) No input driver specified, ignoring this device.
+[     6.830] (II) This device may have been added with another device file.
+[     6.830] (II) config/udev: Adding input device PC Speaker (/dev/input/event6)
+[     6.830] (II) No input driver specified, ignoring this device.
+[     6.830] (II) This device may have been added with another device file.
+[     6.833] (**) SONiX USB DEVICE Consumer Control: Applying InputClass "libinput keyboard catchall"
+[     6.833] (II) Using input driver 'libinput' for 'SONiX USB DEVICE Consumer Control'
+[     6.833] (**) SONiX USB DEVICE Consumer Control: always reports core events
+[     6.833] (**) Option "Device" "/dev/input/event12"
+[     6.833] (**) Option "_source" "_driver/libinput"
+[     6.833] (II) libinput: SONiX USB DEVICE Consumer Control: is a virtual subdevice
+[     6.833] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:0C45:5004.0002/input/input13/event12"
+[     6.833] (II) XINPUT: Adding extended input device "SONiX USB DEVICE Consumer Control" (type: KEYBOARD, id 19)
+[   113.289] (II) event1  - Power Button: device removed
+[   113.320] (II) event2  - Sleep Button: device removed
+[   113.347] (II) event10 - Integrated_Webcam_HD: Integrate: device removed
+[   113.400] (II) event8  - SONiX USB DEVICE: device removed
+[   113.427] (II) event9  - SONiX USB DEVICE Keyboard: device removed
+[   113.454] (II) event11 - SONiX USB DEVICE System Control: device removed
+[   113.480] (II) event21 - SYNA2393:00 06CB:7A13 Touchpad: device removed
+[   113.534] (II) event4  - Intel HID events: device removed
+[   113.560] (II) event5  - Intel HID 5 button array: device removed
+[   113.584] (II) event7  - Dell WMI hotkeys: device removed
+[   113.640] (II) event3  - AT Translated Set 2 keyboard: device removed
+[   113.667] (II) event14 - SynPS/2 Synaptics TouchPad: device removed
+[   113.720] (II) event12 - SONiX USB DEVICE Consumer Control: device removed

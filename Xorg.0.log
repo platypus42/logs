@@ -410,3 +410,19 @@ X Protocol Version 11, Revision 0
 [   113.640] (II) event3  - AT Translated Set 2 keyboard: device removed
 [   113.667] (II) event14 - SynPS/2 Synaptics TouchPad: device removed
 [   113.720] (II) event12 - SONiX USB DEVICE Consumer Control: device removed
+[  5145.149] (II) UnloadModule: "libinput"
+[  5145.149] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.150] (II) UnloadModule: "libinput"
+[  5145.155] (II) NVIDIA(GPU-0): Deleting GPU-0
+[  5145.156] (II) Server terminated successfully (0). Closing log file.
